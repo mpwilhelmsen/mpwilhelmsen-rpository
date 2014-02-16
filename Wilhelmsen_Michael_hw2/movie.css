@@ -1,0 +1,67 @@
+body
+{
+background-image:url('http://www.u.arizona.edu/~milazzom/cscv337sp14/hw2/background.png');
+margin:0px;
+}
+
+#banner
+{
+background-image:url('http://www.u.arizona.edu/~milazzom/cscv337sp14/hw2/bannerbackground.png');
+text-align:center;
+}
+
+h1
+{
+font-weight:bold;
+font-size:24px;
+text-align:center;
+}
+
+dl
+{
+float: right;
+background-color:#A2B964;
+font-family:Arial;
+font-size:8px;
+width:250px;
+padding:10px;
+height: 1000px;
+}
+
+#mainBox
+{
+margin:auto;
+width:800px;
+border:5px solid gray;
+overflow: hidden;
+}
+
+#mainBox .box
+{
+font-size:8px;
+border:2px solid gray;
+background-color:#E1D697;
+padding:8px;
+width:47%
+}
+
+#mainBox .critic
+{
+font-style:italic;
+font-size:8px;
+width:47%
+}
+
+#mainBox .column
+{
+float: right;
+width:258px;
+}
+
+#top
+{
+background-image:url('http://www.u.arizona.edu/~milazzom/cscv337sp14/hw2/rottenbackground.png');
+width:550px;
+font-size:48pt;
+color:red;
+}
