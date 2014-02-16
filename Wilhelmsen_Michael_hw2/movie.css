@@ -19,13 +19,13 @@ text-align:center;
 
 dl
 {
-float: right;
-background-color:#A2B964;
 font-family:Arial;
 font-size:8px;
-width:250px;
+width:230px;
 padding:10px;
 height: 1000px;
+margin:0;
+clear:right;
 }
 
 #mainBox
@@ -36,26 +36,43 @@ border:5px solid gray;
 overflow: hidden;
 }
 
+#mainBox .right-col {
+	float:right;
+	margin:0;
+	float: right;
+	background-color:#A2B964;
+}
+
 #mainBox .box
 {
 font-size:8px;
 border:2px solid gray;
 background-color:#E1D697;
 padding:8px;
-width:47%
 }
 
 #mainBox .critic
 {
 font-style:italic;
 font-size:8px;
-width:47%
+}
+
+#left-col {
+width: 550px;
 }
 
 #mainBox .column
 {
-float: right;
-width:258px;
+float: left;
+width: 47%;
+margin-left: 2%;
+}
+
+#mainBox .results
+{
+clear: both;
+text-align: center;
+margin: 0;
 }
 
 #top
